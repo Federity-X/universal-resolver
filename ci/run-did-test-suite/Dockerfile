@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.13
+FROM node:24.22.3-alpine
 
 LABEL "com.github.actions.name"="Did Test Suite"
 LABEL "com.github.actions.description"="Run the did-test-suite against the api of a Universal Resolver deployment"
